@@ -20,3 +20,110 @@ label {
 input:focus {
   outline: none;
 }
+
+body {
+  display: flex;
+  width: 1728px;
+  height: 1117px;
+  padding: 50px 1278px 717px 50px;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  width: 400px;
+  padding: 32px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  border-radius: 32px;
+  border: 1px solid #ccc;
+  background: #fff;
+}
+
+.login-title {
+  font-family: "Plus Jakarta Sans";
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.login-subtitle {
+  font-family: "Plus Jakarta Sans";
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.login-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 4px;
+  align-self: stretch;
+}
+
+.login-label {
+  color: #555;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.login-input {
+  width: 324px;
+  flex-shrink: 0;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 40px; /* 250% */
+  display: flex;
+  width: 336px;
+  height: 40px;
+  padding-left: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.login-input:focus {
+  display: flex;
+  width: 336px;
+  height: 40px;
+  padding-left: 12px;
+  justify-content: flex-end;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid #000;
+  background: #eee;
+}
+
+button {
+  display: flex;
+  width: 336px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: none;
+  background: #1576ea;
+  color: #fff;
+  text-align: center;
+  font-family: "Plus Jakarta Sans";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 40px; /* 250% */
+}
+
+button:hover {
+  display: flex;
+  width: 336px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background: #0b0b0b;
+}
